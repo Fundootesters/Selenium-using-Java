@@ -1,0 +1,16 @@
+Xapth
+
+//tagname[@attributeName='attributeValue']
+//tagename[contains(text(),'value')]
+
+
+<a href="/abtest">A/B Testing</a>
+
+Xapth
+
+//a[@href='/abtest']
+//a[contains(text(),'A/B Testing')]
+
+
+css
+a[href='/abtest']
